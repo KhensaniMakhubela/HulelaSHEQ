@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" type="text/css" media="screen" href="{% static 'style/main.css' %}">
+</head>
+<body>
+
+    {%  include 'Navbar.html' %}
+
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+</html>
